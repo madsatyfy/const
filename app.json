@@ -10,7 +10,8 @@
     ],
     "sdkVersion": "50.0.0",
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/3dc46219-dbf6-4223-9760-6683e806eaa1"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -22,13 +23,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.madsats.legalassistapp"
     },
     "description": "AI-powered legal guidance app for Indian citizens",
     "extra": {
       "eas": {
         "projectId": "3dc46219-dbf6-4223-9760-6683e806eaa1"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
