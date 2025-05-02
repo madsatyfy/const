@@ -7,3 +7,5 @@ workflows:
         max_build_duration: 120
 
         instance_type: mac_mini_m2
+artifacts:
+  - android/app/build/outputs/apk/release/app-release.apk
